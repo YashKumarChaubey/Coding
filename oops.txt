@@ -1,0 +1,4 @@
+Procedure oriented prog - c,cobol,fortran
+        program was divided into tasks and functions
+        
+OOPS - 
