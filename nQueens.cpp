@@ -1,7 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-int largest(int arr[],int n){
+int largest(vector<int> &arr,int n){
     int maxEle = INT_MIN;
 
     for(int i=0;i<n;i++){
@@ -21,7 +21,7 @@ int main(){
     int n;
     cin>>n;
 
-    int arr[n];
+    vector<int> arr(n);
 
     for(int i=0;i<n;i++){
         cin>>arr[i];
